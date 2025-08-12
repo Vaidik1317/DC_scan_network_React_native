@@ -7,7 +7,7 @@ export const ScanProvider = ({ children }) => {
   const [allDevices, setAllDevices] = useState([]);
   const [filteredDevices, setFilteredDevices] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
-  console.log(allDevices);
+  // console.log(allDevices);
   const triggerScan = useCallback(() => setTrigger(true), []);
   const resetTrigger = useCallback(() => setTrigger(false), []);
 
